@@ -59,7 +59,7 @@ function drawFlower(numPetals) {
  
   ctx.fill();
 
-  const loveOrNot = numPetals % 2 === 0 ? "Любит" : "Не любит";
+  const loveOrNot = numPetals % 2 === 0 ? "Love" : "NOT Love";
   const message = document.createElement("div");
   message.id = "loveOrNot";
   message.innerHTML = loveOrNot;
